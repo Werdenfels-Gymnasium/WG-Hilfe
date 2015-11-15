@@ -3,4 +3,8 @@
     "title": "VLC Medium abspielen",
     "path": "VLC/VLC.MD"
   }
+  "webserver": {
+    "title": "Lokaler Webserver",
+    "path": "webserver/webserver.MD"
+  }
 }
