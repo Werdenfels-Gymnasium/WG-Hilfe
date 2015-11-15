@@ -8,7 +8,7 @@
 </head>
 <body class="layout-row">
 
-  <md-sidenav layout="column" md-is-locked-open="$mdMedia('gt-sm')" md-component-id="left" class="md-sidenav-left" tabindex="-1" ng-repeat="(key, value) in guides">
+  <md-sidenav layout="column" md-is-locked-open="$mdMedia('gt-sm')" md-component-id="left" class="md-sidenav-left" tabindex="-1">
 
       <div class="brand">
         <a ng-href="#/">
@@ -16,8 +16,10 @@
         </a>
       </div>
 
+      <div ng-repeat="(key, value) in guides">
+        <md-menu-item ng-href="#/guide/{{ key }}" ng-label="{{ value.title }}" />
+      </div>
 
-      <md-menu-item ng-href="#/guide/{{ key }}" ng-label="{{ value.title }}" />
   </md-sidenav>
 
   <div tabindex="-1" layout="column" layout-fill role="main">
