@@ -1,3 +1,3 @@
-### Werdenfels-Gymnasium Hilfe Homepage
+### Werdenfels-Gymnasium Hilfe
 -------
 ![Header](src/img/werdenfelsgymnasium.jpg)
