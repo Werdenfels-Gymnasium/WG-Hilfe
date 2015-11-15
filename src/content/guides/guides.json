@@ -10,5 +10,9 @@
   "pgp": {
     "title": "PGP einrichten",
     "path": "PGP/PGP.MD"
+  },
+  "thunderbird-menubar": {
+    "title": "Thunderbird Menüleiste",
+    "path": "THUNDERBIRD/MENUBAR/MENUBAR.MD"
   }
 }
