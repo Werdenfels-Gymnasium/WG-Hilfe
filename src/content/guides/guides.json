@@ -6,5 +6,9 @@
   "webserver": {
     "title": "Lokaler Webserver",
     "path": "WEBSERVER/WEBSERVER.MD"
+  },
+  "pgp": {
+    "title": "PGP einrichten",
+    "path": "PGP/PGP.MD"
   }
 }
