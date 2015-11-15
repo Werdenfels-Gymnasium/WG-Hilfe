@@ -11,4 +11,9 @@
     "title": "PGP einrichten",
     "path": "PGP/PGP.MD"
   }
+    },
+  "thunderbird-menueleiste": {
+    "title": "Thunderbird-Menüleiste",
+    "path": "THUNDERBIRD/MENUELEISTE/MENUELEISTE.MD"
+  }
 }
