@@ -1,0 +1,878 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fnt-",
+				"font-family"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"session",
+				"sessionToken"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"Rep",
+				"Representation"
+			],
+			[
+				"Repre",
+				"RepresentationSchema"
+			],
+			[
+				"Re",
+				"representation"
+			],
+			[
+				"mebe",
+				"membersList"
+			],
+			[
+				"cac",
+				"cacheFactory"
+			],
+			[
+				"connect",
+				"connect_error〔variable〕"
+			],
+			[
+				"XMLH",
+				"XMLHttpRequest"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"success",
+				"Successfully"
+			],
+			[
+				"ec",
+				"encoded"
+			],
+			[
+				"feth",
+				"fetch_array"
+			],
+			[
+				"fec",
+				"fetch_array"
+			],
+			[
+				"gulp",
+				"gulp-newer"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"boot",
+				"bootstrap"
+			],
+			[
+				"angular",
+				"angular-notify"
+			],
+			[
+				"m",
+				"minifyHTML"
+			],
+			[
+				"css",
+				"cssFilter"
+			],
+			[
+				"main",
+				"mainBowerFiles"
+			],
+			[
+				"bowe",
+				"bowerSRC"
+			],
+			[
+				"bowr",
+				"bower_components"
+			],
+			[
+				"bower",
+				"bowerFiles"
+			],
+			[
+				"minify",
+				"minifyCSS"
+			],
+			[
+				"exi",
+				"exists"
+			],
+			[
+				"ex",
+				"existingscripts"
+			],
+			[
+				"loa",
+				"loaded"
+			],
+			[
+				"lo",
+				"loaded"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"temp",
+				"templateUrl"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"tr",
+				"trusted"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"show",
+				"showError"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"post",
+				"postdata"
+			],
+			[
+				"templ",
+				"templateCache"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"abs",
+				"absents"
+			],
+			[
+				"inpu",
+				"inputabsent"
+			],
+			[
+				"contro",
+				"controller"
+			],
+			[
+				"contr",
+				"CONTROLLERS"
+			],
+			[
+				"json",
+				"jsondata"
+			],
+			[
+				"input",
+				"inputtopic"
+			],
+			[
+				"rep",
+				"response"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"SQL",
+				"SQLITE3_ASSOC"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"sta",
+				"startdate"
+			],
+			[
+				"role",
+				"roleToString"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"rot",
+				"rootScope"
+			],
+			[
+				"next",
+				"nextctrl"
+			],
+			[
+				"Session",
+				"SESSION"
+			],
+			[
+				"call",
+				"callLogin"
+			],
+			[
+				"tx",
+				"text-decoration"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"padin",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"ngP",
+				"ngProgressLiteProvider"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "Package Control: instal",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Controlremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"grunt",
+			"cd ..",
+			"ls",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/paul/Desktop/WG-Hilfe/src/content/guides/THUNDERBIRD/MENUBAR/MENUBAR.MD",
+		"/C/Users/paul/Desktop/WG-Hilfe/dist/index.html",
+		"/C/Users/paul/Desktop/testify/src/bundle.js",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/scripts/app.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/js/services/GuideService.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/js/app.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/js/controllers/GuideController.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/index.html",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/content/guides/VLC/VLC.MD",
+		"/D/Dateien/Dokumente/GitHub/material/dist/docs/partials/api/material.components.datepicker/service/$mdDateLocaleProvider.html",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/datepicker/dateLocaleProvider.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/sidenav/sidenav.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/Backend/src/server.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/js/controllers/RootController.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/partials/guide.tmpl.html",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/partials/404.tmpl.html",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/partials/home.tmpl.html",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/scss/app.scss",
+		"/C/Users/paul/Desktop/WG-Hilfe/package.json",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/content/HOME.MD",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/content/guides/guides.json",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/markdown/HOME.MD",
+		"/C/Users/paul/AppData/Local/Temp/tmpF70F.tmp.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/bower_components/marked/marked.min.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/bower_components/angular-sanitize/angular-sanitize.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/js/controllers/HomeController.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/gulpfile.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/markdown/Home.MD",
+		"/C/Users/paul/Desktop/WG-Hilfe/bower.json",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/js/directives/mdMenuItem.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/src/js/directives/menu/menuItem.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/dist/css/app.css",
+		"/C/Users/paul/Desktop/WG-Hilfe/dist/js/app.js",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/User/WG-Hilfe.sublime-build",
+		"/C/Users/paul/Desktop/WG-Hilfe/app/js/app.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/scripts/main.js",
+		"/C/Users/paul/Desktop/WG-Hilfe/index.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/index.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/scripts/services/NotificationService.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/styles/main.css",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/templates/login.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/scripts/controllers/LoginController.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/scripts/services/APIService.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/scripts/services/SessionService.js",
+		"/D/BackupWin81/htdocs/bees/app/js/main.js",
+		"/D/BackupWin81/htdocs/CLEAN/angular/app.js",
+		"/D/BackupWin81/htdocs/CLEAN/angular/index.php",
+		"/D/BackupWin81/htdocs/CLEAN/Ciph265/ciph265.class.php",
+		"/D/BackupWin81/htdocs/CLEAN/SecPal/ipn.php",
+		"/D/BackupWin81/htdocs/CLEAN/uuid.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/Controller/FAQController.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/Controller/LoginController.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/Extension/TwigSessionExtension.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/Includes/MulticraftAPI.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/Model/MulticraftModel.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/Model/Validator/KontaktValidator.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/Model/UserModel.php",
+		"/D/BackupWin81/htdocs/Server24/src/HostBundle/HostBundle.php",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/scripts/static/angular-material.min.js",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/paul/Desktop/ES5.js",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/paul/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript (Babel).sublime-settings",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/checkbox/checkbox.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/checkbox/demoBasicUsage/index.html",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/datepicker/datePicker.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/switch/switch.js",
+		"/C/Users/paul/Desktop/backup.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/input/input.js",
+		"/C/Users/paul/Desktop/Binary1.java",
+		"/C/Users/paul/Desktop/Binary1.class",
+		"/C/Users/paul/Desktop/Binary2.java",
+		"/C/Users/paul/Desktop/Binary2.class",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/templates/404.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/WebMD/templates/impressum.html",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/js/controllers/MembersController.js",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/js/controllers/PanelController.js",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/js/controllers/ProfileController.js",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/views/modals/members.html",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/views/modals/meeting.html",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/views/modals/absents.html",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/js/controllers/AbsentsController.js",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/js/controllers/LoginController.js",
+		"/D/Programme/XAMPP/htdocs/MuxCP/src/js/controllers/MeetingController.js",
+		"/C/Users/paul/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/index.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/scripts/app.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/web/index.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/templates/404.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/styles/main.css",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/scripts/controllers/404Controller.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/images/404.svg",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/templates/login.html",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/web/assets/js/representation.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/button/button-theme.scss",
+		"/D/Dateien/Dokumente/GitHub/material/dist/angular-material.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/button/button.js",
+		"/D/Dateien/Dokumente/GitHub/material/updateVersionPicker.js",
+		"/D/Dateien/Dokumente/GitHub/material/dist/angular-material.css",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/select/select-theme.scss",
+		"/D/Dateien/Dokumente/GitHub/material/.travis.yml",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/autocomplete/autocomplete.scss",
+		"/D/Dateien/Dokumente/GitHub/material/dist/angular-material.scss",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/list/list.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/core/services/ripple/ripple.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/button/button.scss",
+		"/D/Dateien/Dokumente/GitHub/material/src/core/services/ripple/button_ripple.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/web/package.json",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/scripts/webangular.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/icon/icon.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/icon/js/iconDirective.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/icon/js/iconService.js",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/images/menu.svg",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/.gitignore",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/bower.json",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/web/assets/css/styles.css",
+		"/D/Dateien/Downloads/github-recovery-codes.txt",
+		"/C/Users/paul/Desktop/Vertretungsplan/Source/webangular/bower_components/angular-aria/angular-aria.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/datepicker/datePicker.scss",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/button/demoBasicUsage/index.html",
+		"/D/Dateien/Dokumente/Java/workspace/SICGenerator/src/main/java/de/devversion/sicgenerator/App.java",
+		"/D/Dateien/Dokumente/Java/workspace/SICGenerator/.travis.yml",
+		"/D/Dateien/Dokumente/GitHub/material/src/core/util/util.js",
+		"/D/Dateien/Dokumente/GitHub/material/src/components/backdrop/backdrop.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"A Sidenav component that can be opened and closed programatically.\n\n",
+			"nativeDisp",
+			"dispatc",
+			"dispatc+",
+			"dispat",
+			"debounce",
+			".md-ripple",
+			"reado",
+			"interaction",
+			"material.core.gestures",
+			"body",
+			"updateIsOpen",
+			"focus",
+			"$document",
+			"triggeringEle",
+			"invalid",
+			"$att",
+			"invalid",
+			"form",
+			"click",
+			"listener",
+			"disabled",
+			"$$watch",
+			"red",
+			"not-allow",
+			");\n",
+			"md-button",
+			"md-button[dis",
+			"md-button",
+			"disabled",
+			"not-allowed",
+			"color: red",
+			"md-button",
+			"not-allowed",
+			"not-allowed#",
+			"not-allowed",
+			"not-al",
+			"cursor",
+			"md-button",
+			"disabled",
+			"isRippleAllo",
+			"ng-disabl",
+			"parseColor",
+			"href",
+			"ng-href",
+			"trigg",
+			"updateIsOpen",
+			"promise",
+			"triggeringEl",
+			"toggle()",
+			"SidenavServic",
+			"$mdSidenav",
+			"component-id",
+			"no-ink",
+			"disabled",
+			"backdrop",
+			"Back",
+			"document.body",
+			"bodyClickHandler",
+			"handleBodyClick",
+			"closeCalendarPane",
+			"md-calendar-close",
+			"backdrop",
+			"sidenav",
+			"toggleOpen",
+			"sidenav",
+			"toggleOpen",
+			"handleKeyEv",
+			"md-calendar-close",
+			" 3",
+			"ThemingProvider",
+			"mdTheming",
+			"ngRoute",
+			"deep-orang",
+			"Config",
+			"jw",
+			"infla",
+			"inflate.",
+			"inflate",
+			"Git",
+			"gpedit",
+			"PlanetFrag",
+			"Toolbar",
+			"Java",
+			"Advanced",
+			"Legacy",
+			"53 00 79",
+			"F12 Boo",
+			"Advanced",
+			"Thermal Configuration",
+			"74 4F",
+			"08F4",
+			"74 4F",
+			"Advanced",
+			"Graphic",
+			"Advanced",
+			"0x217",
+			"721",
+			"Graphic",
+			"0x1E94A",
+			"01 86 01 00 0A 01",
+			"0x1E8D0",
+			"24 23 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 34 12 84 03 53 79 73 74 65 6D 43 6F 6E 66 69 67 00",
+			"5C 06 00 00 00 00",
+			"Form Set:",
+			"Advanced",
+			"Variable",
+			"Advanc",
+			"22758",
+			"22758 ",
+			"141144",
+			"Advanced",
+			"0x157",
+			"Adva",
+			"Advance",
+			"moment",
+			"jwt",
+			"$s",
+			"$S",
+			"A.d.v.a.n.c.e.d. .C",
+			"A.d.v.a.n.c.e.d. .C.",
+			"A.d.v.a.n.c.e.d. .C.o",
+			"A.d.v.a.n.c.e.d",
+			"Advanc",
+			"0x21",
+			"0x157",
+			"Thermal",
+			"ROM"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"RÄNG",
+			"INS"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 128.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 122.0
+	},
+	"pinned_build_system": "Packages/User/WG-Hilfe.sublime-build",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 339.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
