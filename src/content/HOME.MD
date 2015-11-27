@@ -17,7 +17,7 @@
 
 ### Wie werden unsere Dependencies verwaltet?
 - Der Node Package Manager ist das richtige Tool.
-- Für Web Komponenten wird Bower empfehlen.
+- Für Web Komponenten wird Bower empfohlen.
 - Unsere Web Komponenten sind somit immer auf dem neusten Stand.
 
 ### Welche Design Richtlinen verwenden wir?
