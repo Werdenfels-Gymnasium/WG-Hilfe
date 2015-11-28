@@ -14,5 +14,9 @@
   "thunderbird-menubar": {
     "title": "Thunderbird Menüleiste",
     "path": "THUNDERBIRD/MENUBAR/MENUBAR.MD"
+  },
+  "thunderbird-reset": {
+    "title": "Thunderbird Zurücksetzen",
+    "path": "THUNDERBIRD/RESET/RESET.MD"
   }
 }
