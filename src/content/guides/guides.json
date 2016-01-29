@@ -18,5 +18,9 @@
   "thunderbird-reset": {
     "title": "Thunderbird Zurücksetzen",
     "path": "THUNDERBIRD/RESET/RESET.MD"
+  },
+  "mysql-terminal": {
+    "title": "My SQL Terminal",
+    "path": "MYSQL/TERMINAL/TERMINAL.MD"
   }
 }
