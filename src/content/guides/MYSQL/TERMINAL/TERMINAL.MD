@@ -15,5 +15,3 @@ Schritt 4. Gib nun dein Passwort von der Schule ein und bestätige wieder.
 ![Screenshot 3](content/guides/MYSQL/TERMINAL/screen3.png)
 
 Schritt 5. Nun bist du am MySQL-Server eingeloggt und kannst MySQL Querys ausführen!
-
-  
