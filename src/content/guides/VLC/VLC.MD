@@ -1,4 +1,4 @@
-1. Öffnen Sie den VLC-Player auf deinem Rechner
+1. Öffnen Sie den VLC-Player auf Ihrem Rechner
 2. Klicken Sie dann auf den Reiter Medien
 
   ![Screenshot 1](content/guides/VLC/screen1.png)
