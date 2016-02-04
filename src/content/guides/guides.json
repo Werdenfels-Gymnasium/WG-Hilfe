@@ -20,6 +20,12 @@
     "path": "THUNDERBIRD/RESET/RESET.MD"
   },
   "mysql-terminal": {
+    "submenu": {
+      "mysql-terminal": {
+        "title": "My SQL Terminal 2",
+        "path": "MYSQL/TERMINAL/TERMINAL.MD"
+      }
+    },
     "title": "My SQL Terminal",
     "path": "MYSQL/TERMINAL/TERMINAL.MD"
   }
