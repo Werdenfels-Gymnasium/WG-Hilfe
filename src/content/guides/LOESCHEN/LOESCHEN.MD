@@ -1,7 +1,7 @@
-1. Wählen Sie die gewünschte Datei aus.
+﻿1. Wähle die gewünschte Datei aus
 
-2. Drücken Sie die Tasten `SHIFT` und `Entf`
+2. Drücke die Tasten `SHIFT` und `Entf`
 
-3. Klicken Sie auf Löschen.
+3. Klicke auf `Löschen`
 
    ![Screenshot 1](content/guides/LOESCHEN/screen1.png)
