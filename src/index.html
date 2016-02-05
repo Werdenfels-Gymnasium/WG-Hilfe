@@ -21,7 +21,11 @@
   </div>
 
   <div ng-repeat="(key, value) in guides">
-    <md-menu-item ng-href="#/guide/{{ key }}" ng-label="{{ value.title }}" />
+    <md-collapsed-menu ng-if="value.submenu !== undefined" ng-repeat="(subKey, subValue) in value.submenu">
+      <md-collapsed-menu-item ng-href="#/guide/{{ subkey }}" ng-label="{{ subValue.title }}" />
+    </md-collapsed-menu>
+    <md-menu-item ng-if="value.submenu === undefined" ng-href="#/guide/{{ key }}" ng-label="{{ value.title }}" />
+    
   </div>
 
 </md-sidenav>
