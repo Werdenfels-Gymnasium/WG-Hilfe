@@ -6,8 +6,7 @@ function RootController($scope, $routeParams, GuideService) {
   GuideService.fetchData().then(function(data) {
     $scope.guides = data;
   }, function(error) {
-    alert("Error");
-    //TODO HANDLE THAT
+    new Error('There occoured an error while reading the guides: ' + error);
   });
 
 }

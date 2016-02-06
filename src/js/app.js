@@ -7,6 +7,8 @@
   ]);
 
   app.config(function($mdThemingProvider) {
+    /*
+    ## NEW DESIGN ##
     $mdThemingProvider.definePalette('soft-orange', {
       '50': 'FBE9E7',
       '100': 'FFCCBC',
@@ -25,9 +27,12 @@
       'contrastDefaultColor': 'light',
       'contrastDarkColors': '50 100 200 300 400 A100 A200',
       'contrastStrongLightColors': '500 600 700 800 900 A400 A700'
-    });
+    });*/
 
-    $mdThemingProvider.theme('default').primaryPalette('soft-orange');
+    $mdThemingProvider
+      .theme('default')
+      .primaryPalette('blue')
+      .accentPalette('grey');
   });
 
   app.run(function($rootScope, $mdSidenav) {
