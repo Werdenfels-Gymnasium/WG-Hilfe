@@ -1,4 +1,4 @@
-### Werdenfels-Gymnasium Hilfe
+### Werdenfels-Gymnasium Hilfe [![BuildStatus](https://travis-ci.org/Werdenfels-Gymnasium/WG-Hilfe.svg?branch=master)](https://travis-ci.org/Werdenfels-Gymnasium/WG-Hilfe)
 -------
 ![Header](src/img/werdenfelsgymnasium.jpg)
 
