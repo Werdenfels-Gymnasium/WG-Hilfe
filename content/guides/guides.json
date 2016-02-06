@@ -11,12 +11,18 @@
     "title": "PGP einrichten",
     "path": "PGP/PGP.MD"
   },
-  "thunderbird-menubar": {
-    "title": "Thunderbird Menüleiste",
-    "path": "THUNDERBIRD/MENUBAR/MENUBAR.MD"
-  },
-  "thunderbird-reset": {
-    "title": "Thunderbird Zurücksetzen",
-    "path": "THUNDERBIRD/RESET/RESET.MD"
+  "thunderbird": {
+    "title": "Thunderbird",
+    "collapse": true,
+    "items": {
+      "thunderbird-menubar": {
+        "title": "Thunderbird Menüleiste",
+        "path": "THUNDERBIRD/MENUBAR/MENUBAR.MD"
+      },
+      "thunderbird-reset": {
+        "title": "Thunderbird Zurücksetzen",
+        "path": "THUNDERBIRD/RESET/RESET.MD"
+      }
+    }
   }
 }
