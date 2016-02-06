@@ -8,7 +8,7 @@ cp dist/ ~/dist -R
 rm dist/ -Rf
 
 echo "Cloning with private access token"
-git clone DevVersion-Bot:$GH_TOKEN@github.com/Werdenfels-Gymnasium/WG-Hilfe ~/WG-Hilfe-deploy/
+git clone https://DevVersion-Bot:$GH_TOKEN@github.com/Werdenfels-Gymnasium/WG-Hilfe ~/WG-Hilfe-deploy/
 cd ~/WG-Hilfe-deploy
 
 echo "Fetching all"
