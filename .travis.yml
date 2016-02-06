@@ -11,4 +11,4 @@ before_script:
   - git config --global user.name "DevVersion's Commit Bot"
 
 script:
-  - ./scripts/deploy.sh
+  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && ./scripts/deploy.sh'
