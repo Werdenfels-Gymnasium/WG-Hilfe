@@ -1,8 +1,8 @@
-1. Öffne Thunderbird
+﻿1. Öffne Thunderbird
 
   ![Screenshot 1](content/guides/THUNDERBIRD/ACCOUNT/pic01.png)
 
-2. Klicke auf `Überspringen` und `Meine existierenden eMail-Adresse verwenden`
+2. Klicke auf `Überspringen` und `Meine existierende eMail-Adresse verwenden`
 
   ![Screenshot 2](content/guides/THUNDERBIRD/ACCOUNT/pic02.png)
 
