@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+  - '4.2.3'
+branches:
+  only:
+    - master
+before_script:
+  - git config --global user.email "gschwepa@werdenfels-gymnasium.de"
+  - git config --global user.name "DevVersion's Commit Bot"
+
+script:
+  - ./scripts/deploy.sh
