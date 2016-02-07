@@ -1,4 +1,4 @@
-1. Öffne TeXWorks
+﻿1. Öffne TeXWorks
 
 2. Klicke auf `Bearbeiten` und dann auf `Einstellungen`
 
@@ -18,4 +18,4 @@
 
    ![Screenshot 4](content/guides/TEXWORK/latex4.png)
 
-7. Nun sind deine Vorlagen eingebunden
+7. Nun sind die Vorlagen eingebunden

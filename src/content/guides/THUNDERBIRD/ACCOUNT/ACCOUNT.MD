@@ -6,11 +6,11 @@
 
   ![Screenshot 2](content/guides/THUNDERBIRD/ACCOUNT/pic02.png)
 
-3. Zuerst muss man seinen Absendernamen eingeben, dann gibt man seine eMail-Adresse der Schule ein, diese ist wie gefolgt aufgebaut: `Username@werdenfels-gymnasium.de`
+3. Zuerst muss man den Absendernamen eingeben, dann gibt man die eMail-Adresse der Schule ein, diese ist wie gefolgt aufgebaut: `Username@werdenfels-gymnasium.de`
 
   ![Screenshot 3](content/guides/THUNDERBIRD/ACCOUNT/pic03.png)
 
-4. Übertrage die Manuellen Einstellungen, welche in dem oberen Bild zu sehen sind. Danach klicke auf `Fertig`. Nun akzeptiere die kommende Risiken-Meldung
+4. Übertrage die manuellen Einstellungen, welche in dem oberen Bild zu sehen sind. Danach klicke auf `Fertig`. Nun akzeptiere die kommende Risiken-Meldung
 
   ![Screenshot 4](content/guides/THUNDERBIRD/ACCOUNT/pic04.png)
 

@@ -40,12 +40,12 @@
 
   ![Screenshot 10](content/guides/PGP/screen10.png)
   
-12. Speichere nun das Schlüsselpaar irgendwo in deinem Verzeichniss ab
+12. Speichere nun das Schlüsselpaar irgendwo in dem Verzeichnis ab
 
   ![Screenshot 11](content/guides/PGP/screen11.png)
   
-13. Gib nun dein vorher eingerichtetes Passwort ein
+13. Gib nun das vorher eingerichtete Passwort ein
 
   ![Screenshot 12](content/guides/PGP/screen12.png)
   
-14. Nun hast du erfolgreich `OpenPGP` eingerichtet
+14. Nun ist `OpenPGP` erfolgreich eingerichtet
