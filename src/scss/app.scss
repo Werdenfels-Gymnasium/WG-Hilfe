@@ -70,3 +70,22 @@ md-collapse-menu-item {
     }
   }
 }
+
+div[marked] {
+
+  img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  code {
+    padding: 5px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+}
