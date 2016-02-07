@@ -18,4 +18,4 @@
 
    ![Screenshot 4](content/guides/TEXWORK/latex4.png)
 
-7. Nun sind deine Vorlagen eingebunden
+7. Nun sind die Vorlagen eingebunden

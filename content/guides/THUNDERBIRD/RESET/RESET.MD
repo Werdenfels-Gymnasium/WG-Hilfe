@@ -1,4 +1,4 @@
-1. Gehe in das Verzeichniss `Einstellungen` in ihrem `Home_auf_Server`
+1. Gehe in das Verzeichnis `Einstellungen` in `Home_auf_Server`
 
 2. Drücke nun die Tasten-Kombination `Strg + H`
 
