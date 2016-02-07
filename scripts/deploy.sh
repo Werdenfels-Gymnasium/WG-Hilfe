@@ -19,7 +19,7 @@ if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
   cp ~/dist/* -R .
 
   echo "Adding all files to SCM"
-  git add .
+  git add -f .
 
   echo "Creating a commit with the new changes"
   git commit -m "Update $(date)"
