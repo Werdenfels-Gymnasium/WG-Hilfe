@@ -1,4 +1,4 @@
-﻿1. Öffne den VLC-Player auf deinem Rechner
+﻿1. Öffne den VLC-Player
 
 2. Klicke dann auf den Reiter `Medien`
 
