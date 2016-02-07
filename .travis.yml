@@ -12,6 +12,7 @@ before_script:
   - chmod a+x ./scripts/deploy.sh
   - git config --global user.email "gschwepa@werdenfels-gymnasium.de"
   - git config --global user.name "DevVersion's Commit Bot"
+  - bower install
 script:
   - 'gulp build'
 after_success:
