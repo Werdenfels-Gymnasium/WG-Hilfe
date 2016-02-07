@@ -53,6 +53,12 @@ md-menu-item {
   background: #eee;
 }
 
+.collapsed-menu-item {
+  .md-button {
+    padding-left: 32px;
+  }
+}
+
 md-collapse-menu-item {
 
   ul {
