@@ -10,8 +10,8 @@ branches:
     - master
 before_script:
   - chmod a+x ./scripts/deploy.sh
-  - git config --global user.email "gschwepa@werdenfels-gymnasium.de"
-  - git config --global user.name "DevVersion's Commit Bot"
+  - git config --global user.email "pa_thiel@t-online.de"
+  - git config --global user.name "DevVersion's arrogant Bot"
   - npm install bower -g
   - bower install
 script:
