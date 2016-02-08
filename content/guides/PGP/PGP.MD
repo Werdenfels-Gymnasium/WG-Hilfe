@@ -12,7 +12,7 @@
 
   ![Screenshot 3](content/guides/PGP/screen3.png)
 
-5. KLicke nun auf `Nein`
+5. Klicke nun auf `Nein`
 
   ![Screenshot 4](content/guides/PGP/screen4.png)
 
@@ -20,7 +20,7 @@
 
   ![Screenshot 5](content/guides/PGP/screen5.png)
 
-7. Klicke jetzt auf `Neues Schlüsselpaar erzeugen!`
+7. Klicke jetzt auf `Ich möchte ein neues Schlüsselpaar erzeugen`
 
   ![Screenshot 6](content/guides/PGP/screen6.png)
 
