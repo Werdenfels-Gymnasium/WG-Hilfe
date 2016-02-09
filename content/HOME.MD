@@ -8,7 +8,7 @@
 ### Ich möchte meinen Beitrag leisten?
 - Du zeigst Interesse für NodeJS und Angular.
 - Du möchtest einen komplexen Build-Cycle verstehen.
-- Dann melde dich bei dem aktuellen Maintainer (https://goo.gl/N6KZhF).
+- Dann melde dich bei einem unserer Spezialisten (https://goo.gl/iJfILp).
 
 ### Wie werden die einzelnen Themen dargestellt?
 - Wir verwenden die Auszeichnungssprache Markdown.
