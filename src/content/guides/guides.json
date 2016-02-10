@@ -11,6 +11,20 @@
     "title": "PGP einrichten",
     "path": "PGP/PGP.MD"
   },
+  "loeschen": {
+    "title": "Datei löschen",
+    "path": "LOESCHEN/LOESCHEN.MD"
+  },
+  "texwork": {
+    "title": "TeXWorks",
+    "collapse": true,
+    "items": {
+      "texworks-templates": {
+        "title": "TeXWorks Vorlagen",
+        "path": "TEXWORK/TEXWORK.MD"
+      }
+    }
+  },
   "thunderbird": {
     "title": "Thunderbird",
     "collapse": true,
