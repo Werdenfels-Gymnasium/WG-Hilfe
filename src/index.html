@@ -57,8 +57,8 @@
 
     <md-content layout-padding flex class="md-whiteframe-1dp">
 
-      <md-progress-circular class="content-loader" ng-if="!isLoaded()" class="md-primary md-hue-1" md-mode="indeterminate" md-diameter="60"></md-progress-circular>
-      <div ng-view ng-if="isLoaded()"></div>
+      <md-progress-circular class="content-loader" ng-if="isLoading()" class="md-primary md-hue-1" md-mode="indeterminate" md-diameter="60"></md-progress-circular>
+      <div ng-view ng-show="!isLoading()"></div>
 
     </md-content>
 

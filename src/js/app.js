@@ -39,6 +39,19 @@
     $rootScope.toggleSidenav = function() {
       $mdSidenav('left').toggle();
     };
+
+    $rootScope.$on('$routeChangeStart', function(event, next, current) {
+      $rootScope.loadingRoute = true;
+    });
+
+    $rootScope.$on('$routeChangeSuccess', function(event, next, current) {
+      $rootScope.loadingRoute = false;
+    });
+
+    $rootScope.isLoading = function() {
+      return $rootScope.loadingRoute && $rootScope.loadingGuide;
+    }
+
   });
 
   app.config(function($routeProvider, $locationProvider) {

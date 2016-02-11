@@ -1,24 +1,18 @@
 angular.module('wgHilfe')
-  .controller('RootController', RootController)
-  .run(function($rootScope) {
-    $rootScope.$on('$routeChangeStart', function(event, next, current) {
-      $rootScope.loadedContent = false;
-    });
-    $rootScope.$on('$routeChangeSuccess', function(event, next, current) {
-      $rootScope.loadedContent = true;
-    });
-  });
+  .controller('RootController', RootController);
 
 function RootController($rootScope, $scope, $routeParams, GuideService) {
+
+  // Initially set the load boolean for the guide
+  $rootScope.loadingGuide = true;
+
   GuideService.fetchData().then(function(data) {
-    $scope.loadedGuide = false;
+    $rootScope.loadingGuide = false;
     $scope.guides = data;
   }, function(error) {
     new Error('There occoured an error while reading the guides: ' + error);
-  }).then(function() {
-    $scope.loadedGuide = true;
+  }).finally(function() {
+    $scope.loadingGuide = true;
   });
-  $rootScope.isLoaded = function() {
-    return (+ $rootScope.loadedContent & + $scope.loadedGuide) === 1 ? true : false;
-  }
+
 }
