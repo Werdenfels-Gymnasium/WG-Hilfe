@@ -20,7 +20,7 @@
       <div class="fill-height layout-row flex" style="white-space: nowrap">
         <a ng-href="#/">
            <h2>
-            <span>Werdenfels-Gymnasum Hilfe</span>
+            <span>Werdenfels-Gymnasium Hilfe</span>
           </h2>
         </a>
       </div>
@@ -57,7 +57,8 @@
 
     <md-content layout-padding flex class="md-whiteframe-1dp">
 
-      <div ng-view></div>
+      <md-progress-circular class="content-loader" ng-if="!isLoaded()" class="md-primary md-hue-1" md-mode="indeterminate" md-diameter="60"></md-progress-circular>
+      <div ng-view ng-if="isLoaded()"></div>
 
     </md-content>
 
