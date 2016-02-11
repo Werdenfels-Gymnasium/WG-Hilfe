@@ -2,6 +2,8 @@
 
 2. Kopiere nun die URL der Projektseite neben dem HTTPS-Text 
 
+    ![Screenshot 1](content/guides/GITHUB/CLONE/screen1.png)
+
 3. Öffne jetzt das Terminal in dem gewünschten Verzeichnis 
 
 4. Gib `git clone [URL der Projektseite]` ein
