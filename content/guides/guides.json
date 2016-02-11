@@ -20,8 +20,22 @@
     "collapse": true,
     "items": {
       "texworks-templates": {
-        "title": "TeXWorks Vorlagen",
+        "title": "Vorlagen",
         "path": "TEXWORK/TEXWORK.MD"
+      }
+    }
+  },
+  "github": {
+    "title": "GitHub",
+    "collapse": true,
+    "items": {
+      "github-clone": {
+        "title": "Klonen",
+        "path": "GITHUB/CLONE/CLONE.MD"
+      },
+      "github-contribute": {
+        "title": "Änderungen beitragen",
+        "path": "GITHUB/CONTRIBUTE/CONTRIBUTE.MD"
       }
     }
   },
@@ -30,11 +44,11 @@
     "collapse": true,
     "items": {
       "thunderbird-menubar": {
-        "title": "Thunderbird Menüleiste",
+        "title": "Menüleiste",
         "path": "THUNDERBIRD/MENUBAR/MENUBAR.MD"
       },
       "thunderbird-reset": {
-        "title": "Thunderbird Zurücksetzen",
+        "title": "Zurücksetzen",
         "path": "THUNDERBIRD/RESET/RESET.MD"
       }
     }
