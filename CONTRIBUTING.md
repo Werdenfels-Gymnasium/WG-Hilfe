@@ -39,7 +39,7 @@ The development team has defined three levels of **commit authorization**
   * For minor changes, developers in this group may elect to commit direct to master.
 * Project Leads:
   * Includes: [DevVersion](https://github.com/DevVersion)
-  * May review and merge PRs
+  * Will review and merge PRs
   * Should confirm Karma tests pass
   * Should squash as need
   * Should ensure the PR is closed when the merge finishes.
