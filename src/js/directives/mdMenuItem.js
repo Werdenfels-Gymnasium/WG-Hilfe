@@ -2,16 +2,23 @@ angular.module('wgHilfe')
   .directive('mdMenuItem', function() {
     return {
       restrict: 'AE',
-      replace: false,
+      transclude: true,
       template: function(elem, attr) {
-        return attr.type == 'icon' ?
-          '<md-button layout-row ng-href="{{ ngHref }}">{{ ngLabel }}<span flex></span>' +
-          '<span class="md-toggle-icon"><md-icon md-svg-src="img/collapse-menu.svg"></md-icon>' +
-          '</span></md-button>' : '<md-button ng-href="{{ ngHref }}">{{ ngLabel }}</md-button>';
+        if (attr.type === 'icon') {
+          return '<md-button layout="row" ng-href="{{ link }}">' + 
+              '<ng-transclude></ng-transclude>' +
+              '<span flex>' + 
+              '<span class="md-toggle-icon>' +
+                '<md-icon md-svg-src="img/collapse-menu.svg"></md-icon>'
+              '</span>' +
+            '</md-button>';
+        }
+        return '<md-button ng-href="{{ link }}">' +
+            '<ng-transclude></ng-transclude>' + 
+          '</md-button>';
       },
-      scope: {
-        ngHref: "@",
-        ngLabel: "@"
+      link: function(scope, element, attr) {
+        scope.link = attr.ngHref || '';
       }
     };
 });

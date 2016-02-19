@@ -43,13 +43,13 @@
         <div ng-if="value.collapse">
           <md-collapse-menu-item ng-label="{{ value.title }}">
             <div ng-repeat="(childkey, child) in value.items">
-              <md-menu-item ng-href="#/guide/{{ childkey }}" ng-label="{{ child.title }}"></md-menu-item>
+              <md-menu-item ng-href="#/guide/{{ childkey }}">{{ child.title }}</md-menu-item>
             </div>
           </md-collapse-menu-item>
         </div>
         <!-- When using no collapse menu item -->
         <div ng-if="!value.collapse">
-            <md-menu-item ng-href="#/guide/{{ key }}" ng-label="{{ value.title }}"></md-menu-item>
+          <md-menu-item ng-href="#/guide/{{ key }}">{{ value.title }}</md-menu-item>
         </div>
       </div>
 

@@ -18,7 +18,7 @@ function MdCollapseMenuItem($compile, $timeout) {
     var $ul = angular.element(element[0].querySelectorAll('ul'));
 
     // Compile our placeholder into the current scope.
-    var collapsePlaceholder = angular.element('<md-menu-item type="icon" ng-label="{{ ngLabel }}"></md-menu-item>');
+    var collapsePlaceholder = angular.element('<md-menu-item type="icon">{{ ngLabel }}</md-menu-item>');
     collapsePlaceholder = $compile(collapsePlaceholder)(scope);
 
     // Append our actual placeholder before the <ul>
@@ -30,7 +30,7 @@ function MdCollapseMenuItem($compile, $timeout) {
       updateIsOpen();
     });
 
-    // Update the menu height directly in postLink.
+    // Update the menu height directly after postLink.
     updateIsOpen();
 
     function updateIsOpen() {
