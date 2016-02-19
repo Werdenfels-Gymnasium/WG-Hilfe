@@ -13,8 +13,8 @@ var dist = "dist";
 gulp.task("scripts", function() {
   return gulp.src('src/js/**/*.js')
       .pipe(print())
-      .pipe(concat("app.js"))
       .pipe(uglify({mangle: false}).on("error", handleError))
+      .pipe(concat("app.js"))
       .pipe(license("Apache", {
         organization: 'Werdenfels-Gymnasium All rights reserved.'
       }))
