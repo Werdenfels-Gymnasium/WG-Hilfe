@@ -5,17 +5,16 @@ angular.module('wgHilfe')
       transclude: true,
       template: function(elem, attr) {
         if (attr.type === 'icon') {
-          return '<md-button layout="row" ng-href="{{ link }}">' + 
-              '<ng-transclude></ng-transclude>' +
-              '<span flex>' + 
-              '<span class="md-toggle-icon>' +
-                '<md-icon md-svg-src="img/collapse-menu.svg"></md-icon>'
+          return '<md-button layout="row" ng-href="{{ link }}" ng-transclude>' +
+              '<span ng-transclude flex></span>' +
+              '<span class="md-toggle-icon">' +
+                '<md-icon md-svg-src="img/collapse-menu.svg"></md-icon>' +
               '</span>' +
             '</md-button>';
         }
         return '<md-button ng-href="{{ link }}">' +
-            '<ng-transclude></ng-transclude>' + 
-          '</md-button>';
+                '<span ng-transclude></span>' +
+            '</md-button>';
       },
       link: function(scope, element, attr) {
         scope.link = attr.ngHref || '';
