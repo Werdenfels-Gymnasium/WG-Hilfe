@@ -14,7 +14,9 @@ gulp.task("scripts", function() {
   return gulp.src('src/js/**/*.js')
       .pipe(print())
       .pipe(concat("app.js"))
-      .pipe(uglify({mangle: false}).on("error", handleError))
+      .pipe(uglify({
+          mangle: false
+      }).on("error", handleError))
       .pipe(license("Apache", {
         organization: 'Werdenfels-Gymnasium All rights reserved.'
       }))
@@ -26,7 +28,11 @@ gulp.task("styles", function() {
       .pipe(print())
       .pipe(concat("app.scss"))
       .pipe(sass())
-      .pipe(autoprefixer({browsers: ['last 2 versions'], cascade: false}))
+      .pipe(autoprefixer({
+        browsers: [
+        'last 2 versions', 'last 4 Android versions'
+        ]
+      }))
       .pipe(minifycss())
       .pipe(license("Apache", {
         organization: 'Werdenfels-Gymnasium All rights reserved.'
