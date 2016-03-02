@@ -77,6 +77,8 @@ md-collapse-menu-item {
 }
 
 div[marked] {
+  overflow: hidden;
+  word-break: break-all;
 
   img {
     max-width: 100%;
@@ -84,12 +86,19 @@ div[marked] {
     overflow: hidden;
   }
 
+  pre {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
   code {
     padding: 5px;
-    overflow: auto;
     font-size: 14px;
-    line-height: 1.45;
-    background-color: #f7f7f7;
+    line-height: 1.55;
+    background-color: #f4f4f4;
     border-radius: 3px;
   }
 }
