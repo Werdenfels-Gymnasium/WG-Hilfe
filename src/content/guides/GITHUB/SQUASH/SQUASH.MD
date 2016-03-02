@@ -16,11 +16,10 @@
 
    ![Screenshot 2](content/guides/GITHUB/SQUASH/screen2.png)
 
-   ![Screenshot 3](content/guides/GITHUB/SQUASH/screen3.png)
-
 3. Speichere nun das Dokument; jetzt kann der Befehl `git squash [Anzahl der Commits]` genutzt werden
 
    ![Screenshot 4](content/guides/GITHUB/SQUASH/screen4.png)
+   ![Screenshot 3](content/guides/GITHUB/SQUASH/screen3.png)
 
 4. Um den Squash hochzuladen, benutze das Syntax `git push --force [REMOTE] [BRANCH]`
 
