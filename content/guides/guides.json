@@ -36,10 +36,6 @@
       "github-contribute": {
         "title": "Änderungen beitragen",
         "path": "GITHUB/CONTRIBUTE/CONTRIBUTE.MD"
-      },
-      "github-squash": {
-        "title": "Squashen",
-        "path": "GITHUB/SQUASH/SQUASH.MD"
       }
     }
   },
