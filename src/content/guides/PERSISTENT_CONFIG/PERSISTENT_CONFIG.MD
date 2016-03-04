@@ -1,5 +1,3 @@
-## Permanentes Speichern von Konfigurationsdateien
-
 1. Deine Git-Konfigurationsdatei findest du beispielsweise in: `~/.gitconfig`
 
 2. Kopiere die Konfigurationsdatei nun nach `/home/students/[Klasse]/[Benutzer]/Home_auf_Server/Einstellungen`
