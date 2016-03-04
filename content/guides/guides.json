@@ -3,6 +3,10 @@
     "title": "VLC Medium abspielen",
     "path": "VLC/VLC.MD"
   },
+  "persistent_config": {
+    "title": "Permanente Konfigurationen",
+    "path": "PERSISTENT_CONFIGS/PERSISTENT_CONFIGS.MD"
+  },
   "webserver": {
     "title": "Lokaler Webserver",
     "path": "WEBSERVER/WEBSERVER.MD"
