@@ -5,7 +5,7 @@
   },
   "persistent_config": {
     "title": "Permanente Konfigurationen",
-    "path": "PERSISTENT_CONFIGS/PERSISTENT_CONFIGS.MD"
+    "path": "PERSISTENT_CONFIG/PERSISTENT_CONFIG.MD"
   },
   "webserver": {
     "title": "Lokaler Webserver",
