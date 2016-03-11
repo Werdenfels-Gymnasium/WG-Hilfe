@@ -11,10 +11,6 @@
     "title": "Lokaler Webserver",
     "path": "WEBSERVER/WEBSERVER.MD"
   },
-  "pgp": {
-    "title": "PGP einrichten",
-    "path": "PGP/PGP.MD"
-  },
   "loeschen": {
     "title": "Datei löschen",
     "path": "LOESCHEN/LOESCHEN.MD"
@@ -58,6 +54,10 @@
       "thunderbird-reset": {
         "title": "Zurücksetzen",
         "path": "THUNDERBIRD/RESET/RESET.MD"
+      },
+      "thunderbird-enigmail": {
+        "title": "Enigmail einrichten",
+        "path": "THUNDERBIRD/ENIGMAIL/ENIGMAIL.MD"
       }
     }
   }
