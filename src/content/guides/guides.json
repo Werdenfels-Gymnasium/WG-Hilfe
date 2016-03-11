@@ -4,7 +4,7 @@
     "path": "VLC/VLC.MD"
   },
   "persistent_config": {
-    "title": "Permanente Konfigurationen",
+    "title": "Programmeinstellungen dauerhaft speichern",
     "path": "PERSISTENT_CONFIG/PERSISTENT_CONFIG.MD"
   },
   "webserver": {
