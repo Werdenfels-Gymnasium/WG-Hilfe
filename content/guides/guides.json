@@ -58,6 +58,28 @@
       "thunderbird-enigmail": {
         "title": "Enigmail einrichten",
         "path": "THUNDERBIRD/ENIGMAIL/ENIGMAIL.MD"
+      },
+      "thunderbird-account": {
+	"title": "Account einrichten",
+	"path": "THUNDERBIRD/ACCOUNT/ACCOUNT.MD"
+      }
+    }
+  },
+  "mysql": {
+    "title": "MySQL",
+    "collapse": true,
+    "items": {
+      "mysql-browser": {
+	"title": "Browser",
+	"path": "MYSQL/BROWSER/BROWSER.MD"
+      },
+      "mysql-terminal": {
+	"title": "Terminal",
+	"path": "MYSQL/TERMINAL/TERMINAL.MD"
+      },
+      "mysql-workbench": {
+	"title": "Workbench",
+	"path": "MYSQL/WORKBENCH/WORKBENCH.MD"
       }
     }
   }
