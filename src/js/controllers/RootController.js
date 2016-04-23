@@ -1,4 +1,5 @@
-angular.module('wgHilfe')
+angular
+  .module('wgHilfe')
   .controller('RootController', RootController);
 
 function RootController($rootScope, $scope, $routeParams, GuideService) {

@@ -1,4 +1,5 @@
-angular.module('wgHilfe')
+angular
+  .module('wgHilfe')
   .controller('GuideController', GuideController);
 
 function GuideController($scope, $routeParams, $location, GuideService) {

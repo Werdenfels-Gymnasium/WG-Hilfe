@@ -47,6 +47,7 @@
             </div>
           </md-collapse-menu-item>
         </div>
+
         <!-- When using no collapse menu item -->
         <div ng-if="!value.collapse">
           <md-menu-item ng-href="#/guide/{{ key }}">{{ value.title }}</md-menu-item>
@@ -57,7 +58,11 @@
 
     <md-content layout-padding flex class="md-whiteframe-1dp">
 
-      <md-progress-circular class="content-loader" ng-if="isLoading()" class="md-primary md-hue-1" md-mode="indeterminate" md-diameter="60"></md-progress-circular>
+      <md-progress-circular class="content-loader md-primary md-hue-1" ng-if="isLoading()"
+                            md-mode="indeterminate" md-diameter="60">
+      </md-progress-circular>
+
+      <!-- The actual content of the current route -->
       <div ng-view ng-show="!isLoading()"></div>
 
     </md-content>

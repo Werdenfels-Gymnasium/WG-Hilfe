@@ -1,4 +1,5 @@
-angular.module('wgHilfe')
+angular
+  .module('wgHilfe')
   .directive('mdMenuItem', function() {
     return {
       restrict: 'AE',
