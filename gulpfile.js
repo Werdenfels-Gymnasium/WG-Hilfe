@@ -67,6 +67,7 @@ gulp.task("watch", function() {
 
 gulp.task("copy", ["copy-bowercomponents", "copy-html", "copy-content", "copy-images"]);
 gulp.task("build", ["scripts", "styles", "copy"]);
+gulp.task('default', ['build']);
 
 function handleError(err) {
   console.log(err.toString());

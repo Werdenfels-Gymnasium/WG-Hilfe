@@ -60,8 +60,8 @@
         "path": "THUNDERBIRD/ENIGMAIL/ENIGMAIL.MD"
       },
       "thunderbird-account": {
-	"title": "Account einrichten",
-	"path": "THUNDERBIRD/ACCOUNT/ACCOUNT.MD"
+        "title": "Account einrichten",
+        "path": "THUNDERBIRD/ACCOUNT/ACCOUNT.MD"
       }
     }
   },
@@ -70,16 +70,20 @@
     "collapse": true,
     "items": {
       "mysql-browser": {
-	"title": "Browser",
-	"path": "MYSQL/BROWSER/BROWSER.MD"
+        "title": "Browser",
+        "path": "MYSQL/BROWSER/BROWSER.MD"
       },
       "mysql-terminal": {
-	"title": "Terminal",
-	"path": "MYSQL/TERMINAL/TERMINAL.MD"
+        "title": "Terminal",
+        "path": "MYSQL/TERMINAL/TERMINAL.MD"
       },
       "mysql-workbench": {
-	"title": "Workbench",
-	"path": "MYSQL/WORKBENCH/WORKBENCH.MD"
+        "title": "Workbench",
+        "path": "MYSQL/WORKBENCH/WORKBENCH.MD"
+      },
+      "mysql-commands": {
+        "title": "Befehle",
+        "path": "MYSQL/COMMANDS/COMMANDS.MD"
       }
     }
   }
