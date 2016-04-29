@@ -76,6 +76,30 @@ md-collapse-menu-item {
   }
 }
 
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-top: 0;
+  margin-bottom: 16px;
+
+  display: block;
+  width: 100%;
+  overflow: auto;
+
+  word-break: normal;
+  word-break: keep-all;
+
+  th, td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+  }
+
+  tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+  }
+}
+
 div[marked] {
   overflow: hidden;
   word-break: normal;
