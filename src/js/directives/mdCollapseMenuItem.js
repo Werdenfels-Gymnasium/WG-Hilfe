@@ -2,7 +2,7 @@ angular
   .module('wgHilfe')
   .directive('mdCollapseMenuItem', MdCollapseMenuItem);
 
-function MdCollapseMenuItem($compile, $timeout) {
+function MdCollapseMenuItem($compile, $mdUtil) {
   return {
     restrict: 'E',
     scope: {
@@ -14,42 +14,37 @@ function MdCollapseMenuItem($compile, $timeout) {
   };
 
   function postLink(scope, element, attr) {
+    var _collapseHeight;
     var isActive = false;
-    var $ul = angular.element(element[0].querySelectorAll('ul'));
+    var ulElement = element[0].querySelector('ul');
 
     // Compile our placeholder into the current scope.
     var collapsePlaceholder = angular.element('<md-menu-item type="icon">{{ ngLabel }}</md-menu-item>');
     collapsePlaceholder = $compile(collapsePlaceholder)(scope);
 
+    $mdUtil.nextTick(function() {
+      _collapseHeight = ulElement.getBoundingClientRect().height;
+
+      // Update the menu height directly after postLink.
+      updateIsOpen();
+    });
+
     // Append our actual placeholder before the <ul>
     element.prepend(collapsePlaceholder);
 
     collapsePlaceholder.on('click', function() {
+      if (!_collapseHeight) return;
+
       isActive = !isActive;
 
       updateIsOpen();
     });
 
-    // Update the menu height directly after postLink.
-    updateIsOpen();
 
     function updateIsOpen() {
-      var targetHeight = isActive ? getTargetHeight() : 0;
-      $timeout(function () {
-        $ul.css({
-          height: targetHeight + 'px'
-        });
-      }, 0, false);
+      var targetHeight = isActive ? _collapseHeight + 'px' : 0;
 
-      function getTargetHeight() {
-        var targetHeight;
-        $ul.addClass('no-transition');
-        $ul.css('height', '');
-        targetHeight = $ul.prop('clientHeight');
-        $ul.css('height', 0);
-        $ul.removeClass('no-transition');
-        return targetHeight;
-      }
+      ulElement.style.height = targetHeight;
     }
 
   }
