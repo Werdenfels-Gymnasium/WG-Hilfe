@@ -13,7 +13,7 @@ function MdCollapseMenuItem($compile, $mdUtil) {
     link: postLink
   };
 
-  function postLink(scope, element, attr) {
+  function postLink(scope, element) {
     var _collapseHeight;
     var isActive = false;
     var ulElement = element[0].querySelector('ul');
@@ -22,11 +22,15 @@ function MdCollapseMenuItem($compile, $mdUtil) {
     var collapsePlaceholder = angular.element('<md-menu-item type="icon">{{ ngLabel }}</md-menu-item>');
     collapsePlaceholder = $compile(collapsePlaceholder)(scope);
 
-    $mdUtil.nextTick(function() {
+    requestAnimationFrame(function waitForElement() {
       _collapseHeight = ulElement.getBoundingClientRect().height;
 
-      // Update the menu height directly after postLink.
-      updateIsOpen();
+      if (_collapseHeight) {
+        // Update the menu height directly after postLink.
+        updateIsOpen();
+      } else {
+        requestAnimationFrame(waitForElement);
+      }
     });
 
     // Append our actual placeholder before the <ul>
@@ -42,9 +46,7 @@ function MdCollapseMenuItem($compile, $mdUtil) {
 
 
     function updateIsOpen() {
-      var targetHeight = isActive ? _collapseHeight + 'px' : 0;
-
-      ulElement.style.height = targetHeight;
+      ulElement.style.height = isActive ? _collapseHeight + 'px' : 0;
     }
 
   }
