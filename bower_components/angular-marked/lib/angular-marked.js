@@ -1,13 +1,14 @@
 /*
  * angular-marked
- * (c) 2014 J. Harshbarger
+ * (c) 2014 - 2016 J. Harshbarger
  * Licensed MIT
  */
 
-/* jshint undef: true, unused: true */
 /* global angular, marked */
 
 'use strict';
+
+var unindent = require('./strip-indent');
 
   /**
    * @ngdoc overview
@@ -69,10 +70,6 @@
 
       With that you're ready to get started!
      */
-
-module.exports = 'hc.marked';
-
-angular.module('hc.marked', [])
 
     /**
     * @ngdoc service
@@ -160,7 +157,7 @@ angular.module('hc.marked', [])
     </example>
   **/
 
-.provider('marked', function () {
+function markedProvider() {
   var self = this;
 
   /**
@@ -192,7 +189,7 @@ angular.module('hc.marked', [])
 
     try {
       m = require('marked');
-    } catch (e) {
+    } catch (err) {
       m = $window.marked || marked;
     }
 
@@ -216,7 +213,7 @@ angular.module('hc.marked', [])
 
     // Customize code and codespan rendering to wrap default or overriden output in a ng-non-bindable span
     function wrapNonBindable(string) {
-      return "<span ng-non-bindable>" + string + "</span>";
+      return '<span ng-non-bindable>' + string + '</span>';
     }
 
     var renderCode = r.code.bind(r);
@@ -236,7 +233,7 @@ angular.module('hc.marked', [])
 
     return m;
   }];
-})
+}
 
   // xTODO: filter and tests */
   // app.filter('marked', ['marked', function(marked) {
@@ -305,8 +302,8 @@ angular.module('hc.marked', [])
          * </file>
        </example>
    */
-
-.directive('marked', ['marked', '$templateRequest', '$compile', function (marked, $templateRequest, $compile) {
+markedDirective.$inject = ['marked', '$templateRequest', '$compile'];
+function markedDirective(marked, $templateRequest, $compile) {
   return {
     restrict: 'AE',
     replace: true,
@@ -317,13 +314,10 @@ angular.module('hc.marked', [])
       src: '='
     },
     link: function (scope, element, attrs) {
-      set(scope.marked || element.text() || '');
-
       if (attrs.marked) {
+        set(scope.marked);
         scope.$watch('marked', set);
-      }
-
-      if (attrs.src) {
+      } else if (attrs.src) {
         scope.$watch('src', function (src) {
           $templateRequest(src, true).then(function (response) {
             set(response);
@@ -332,40 +326,12 @@ angular.module('hc.marked', [])
             scope.$emit('$markedIncludeError', attrs.src);
           });
         });
-      }
-
-      function unindent(text) {
-        if (!text) {
-          return text;
-        }
-
-        var lines = text
-          .replace(/\t/g, '  ')
-          .split(/\r?\n/);
-
-        var min = null;
-        var len = lines.length;
-        var i;
-
-        for (i = 0; i < len; i++) {
-          var line = lines[i];
-          var l = line.match(/^(\s*)/)[0].length;
-          if (l === line.length) {
-            continue;
-          }
-          min = (l < min || min === null) ? l : min;
-        }
-
-        if (min !== null && min > 0) {
-          for (i = 0; i < len; i++) {
-            lines[i] = lines[i].substr(min);
-          }
-        }
-        return lines.join('\n');
+      } else {
+        set(element.text());
       }
 
       function set(text) {
-        text = unindent(text || '');
+        text = unindent(String(text || ''));
         element.html(marked(text, scope.opts || null));
         if (scope.$eval(attrs.compile)) {
           $compile(element.contents())(scope.$parent);
@@ -373,4 +339,10 @@ angular.module('hc.marked', [])
       }
     }
   };
-}]);
+}
+
+module.exports =
+  angular.module('hc.marked', [])
+    .directive('marked', markedDirective)
+    .provider('marked', markedProvider)
+    .name;
