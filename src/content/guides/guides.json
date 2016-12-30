@@ -87,4 +87,9 @@
       }
     }
   }
+    },
+  "thunderbird-menueleiste": {
+    "title": "Thunderbird-Menüleiste",
+    "path": "THUNDERBIRD/MENUELEISTE/MENUELEISTE.MD"
+  }
 }
