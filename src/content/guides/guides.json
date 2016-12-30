@@ -87,4 +87,8 @@
       }
     }
   }
+  "webserver": {
+    "title": "Lokaler Webserver",
+    "path": "webserver/webserver.MD"
+  }
 }
