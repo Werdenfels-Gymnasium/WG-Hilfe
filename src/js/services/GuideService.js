@@ -6,7 +6,7 @@ function GuideService($q, $http) {
 
   this.fetchData = function() {
     return $q(function(resolve) {
-      $http.get("/content/guides/guides.json", {
+      $http.get("content/guides/guides.json", {
         headers: {
           'Content-type': 'application/json'
         }
