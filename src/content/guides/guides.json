@@ -8,7 +8,7 @@
     "path": "QUOTA_UEBERSCHREITUNG/QUOTA_UEBERSCHREITUNG.md"
   },
   "persistent_config": {
-    "title": "Permanente Konfigurationen",
+    "title": "Programmeinstellungen dauerhaft speichern",
     "path": "PERSISTENT_CONFIG/PERSISTENT_CONFIG.MD"
   },
   "webserver": {
