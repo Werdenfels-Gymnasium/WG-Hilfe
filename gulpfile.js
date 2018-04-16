@@ -4,7 +4,6 @@ var gulp = require("gulp"),
     sass = require('gulp-sass'),
     uglify = require("gulp-uglify"),
     concat = require("gulp-concat"),
-    print = require("gulp-print"),
     license = require("gulp-license"),
     minifyHTML = require("gulp-minify-html");
 
@@ -12,7 +11,6 @@ var dist = "dist";
 
 gulp.task("scripts", function() {
   return gulp.src('src/js/**/*.js')
-      .pipe(print())
       .pipe(uglify({
           mangle: false
       }).on("error", handleError))
@@ -25,7 +23,6 @@ gulp.task("scripts", function() {
 
 gulp.task("styles", function() {
   return gulp.src("src/scss/**/*.scss")
-      .pipe(print())
       .pipe(concat("app.scss"))
       .pipe(sass())
       .pipe(autoprefixer({

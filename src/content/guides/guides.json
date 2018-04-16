@@ -19,6 +19,10 @@
     "title": "Datei löschen",
     "path": "LOESCHEN/LOESCHEN.MD"
   },
+  "gimp-docks": {
+    "title": "Gimp Docks",
+    "path": "gimp-docks/gimp-docks.md"
+  },
   "texwork": {
     "title": "TeXWorks",
     "collapse": true,
