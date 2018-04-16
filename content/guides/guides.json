@@ -3,6 +3,10 @@
     "title": "VLC Medium abspielen",
     "path": "VLC/VLC.MD"
   },
+  "quota": {
+    "title": "Quota Überschreitung",
+    "path": "QUOTA_UEBERSCHREITUNG/QUOTA_UEBERSCHREITUNG.md"
+  },
   "persistent_config": {
     "title": "Permanente Konfigurationen",
     "path": "PERSISTENT_CONFIG/PERSISTENT_CONFIG.MD"
@@ -14,6 +18,10 @@
   "loeschen": {
     "title": "Datei löschen",
     "path": "LOESCHEN/LOESCHEN.MD"
+  },
+  "gimp-docks": {
+    "title": "Gimp Docks",
+    "path": "gimp-docks/gimp-docks.md"
   },
   "texwork": {
     "title": "TeXWorks",
