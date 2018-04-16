@@ -2,12 +2,12 @@
 
 if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
   echo "Storing distribution files in home..."
-  cp dist/ ~/dist -R
+  cp dist/ ~/help-dist -R
   rm dist/ -Rf
 
-  echo "Cloning with private access token"
-  git clone https://DevVersion-Bot:$GH_TOKEN@github.com/Werdenfels-Gymnasium/help ~/tmp/deploy/
-  cd ~/WG-Hilfe-deploy
+  echo "Cloning repository"
+  git clone https://DevVersion:$GH_TOKEN@github.com/Werdenfels-Gymnasium/help ~/tmp/deploy-help/
+  cd ~/tmp/deploy-help
 
   echo "Fetching all"
   git fetch origin
@@ -16,19 +16,16 @@ if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
   git checkout gh-pages
 
   echo "Copying distribution files to repository"
-  cp ~/dist/* -R .
+  cp ~/help-dist/* -R .
 
-  echo "Adding all files to SCM"
-  git add -f .
+  echo "Adding all files to Git"
+  git add -A
 
   echo "Creating a commit with the new changes"
-  git commit -m "Upstream Sync: $(date)"
+  git commit --allow-empty -m "Upstream Sync: $(date)"
 
   echo "Pushing to remote... publishing to gh-pages"
   git push origin gh-pages
-
-  echo "Clearing temporary stored files"
-  rm ~/dist -Rf
 
   echo "Successfully deployed the application"
 fi
