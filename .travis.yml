@@ -1,19 +1,24 @@
 sudo: false
+
 language: node_js
+
 node_js:
-  - '4.2.3'
+  - '8'
+
 cache:
   directories:
     - node_modules
+
 branches:
   only:
     - master
+
 before_script:
-  - chmod a+x ./scripts/deploy.sh
   - git config --global user.email "gschwepa@werdenfels-gymnasium.de"
-  - git config --global user.name "DevVersion-Bot"
-  - npm install
+  - git config --global user.name "Werdenfels-Gymnasium"
+
 script:
   - gulp build
+
 after_success:
   - './scripts/deploy.sh'

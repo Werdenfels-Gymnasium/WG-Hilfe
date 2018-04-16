@@ -22,7 +22,7 @@ if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
   git add -f .
 
   echo "Creating a commit with the new changes"
-  git commit -m "Update $(date)"
+  git commit -m "Upstream Sync: $(date)"
 
   echo "Pushing to remote... publishing to gh-pages"
   git push origin gh-pages
