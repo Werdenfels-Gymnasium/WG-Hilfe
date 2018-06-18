@@ -38,7 +38,6 @@ gulp.task("styles", function() {
 
 gulp.task("copy-deps", function() {
   return gulp.src("node_modules/+(marked|angular?(-*))/**/*")
-      .pipe(print())
       .pipe(gulp.dest(dist + "/node_modules"));
 });
 
