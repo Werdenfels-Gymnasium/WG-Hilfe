@@ -21,7 +21,6 @@ gulp.task("scripts", function() {
 
 gulp.task("styles", function() {
   return gulp.src("src/scss/**/*.scss")
-      .pipe(print())
       .pipe(concat("app.scss"))
       .pipe(sass())
       .pipe(autoprefixer({
