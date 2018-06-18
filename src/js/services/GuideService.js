@@ -2,11 +2,13 @@ angular
   .module('wgHilfe')
   .service('GuideService', GuideService);
 
-function GuideService($q, $http) {
+function GuideService($q, $http, $sce) {
+
+  var guideUrl = $sce.trustAsResourceUrl("content/guides/guides.json");
 
   this.fetchData = function() {
     return $q(function(resolve) {
-      $http.get("content/guides/guides.json", {
+      $http.get(guideUrl, {
         headers: {
           'Content-type': 'application/json'
         }

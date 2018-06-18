@@ -1,25 +1,21 @@
-var gulp = require("gulp"),
-    autoprefixer = require("gulp-autoprefixer"),
-    minifycss = require("gulp-minify-css"),
-    sass = require('gulp-sass'),
-    uglify = require("gulp-uglify"),
-    concat = require("gulp-concat"),
-    print = require("gulp-print"),
-    license = require("gulp-license"),
-    minifyHTML = require("gulp-minify-html");
+var gulp = require("gulp");
+var autoprefixer = require("gulp-autoprefixer");
+var minifycss = require("gulp-minify-css");
+var sass = require('gulp-sass');
+var uglify = require("gulp-uglify");
+var concat = require("gulp-concat");
+var print = require("gulp-print");
+var license = require("gulp-license");
+var minifyHTML = require("gulp-minify-html");
 
 var dist = "dist";
 
 gulp.task("scripts", function() {
   return gulp.src('src/js/**/*.js')
       .pipe(print())
-      .pipe(uglify({
-          mangle: false
-      }).on("error", handleError))
+      .pipe(uglify({ mangle: false }).on("error", handleError))
       .pipe(concat("app.js"))
-      .pipe(license("Apache", {
-        organization: 'Werdenfels-Gymnasium All rights reserved.'
-      }))
+      .pipe(license("Apache", { organization: 'Werdenfels-Gymnasium All rights reserved.' }))
       .pipe(gulp.dest(dist + "/js"));
 });
 
@@ -40,9 +36,10 @@ gulp.task("styles", function() {
       .pipe(gulp.dest(dist + "/css"));
 });
 
-gulp.task("copy-bowercomponents", function() {
-  return gulp.src("bower_components/**/*")
-      .pipe(gulp.dest(dist + "/bower_components"));
+gulp.task("copy-deps", function() {
+  return gulp.src("node_modules/+(marked|angular?(-*))/**/*")
+      .pipe(print())
+      .pipe(gulp.dest(dist + "/node_modules"));
 });
 
 gulp.task("copy-html", function() {
@@ -65,7 +62,7 @@ gulp.task("watch", function() {
   gulp.watch("src/**/*", ["build"]);
 });
 
-gulp.task("copy", ["copy-bowercomponents", "copy-html", "copy-content", "copy-images"]);
+gulp.task("copy", ["copy-deps", "copy-html", "copy-content", "copy-images"]);
 gulp.task("build", ["scripts", "styles", "copy"]);
 gulp.task('default', ['build']);
 

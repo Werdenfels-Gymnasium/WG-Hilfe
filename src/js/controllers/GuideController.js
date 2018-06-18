@@ -2,10 +2,14 @@ angular
   .module('wgHilfe')
   .controller('GuideController', GuideController);
 
-function GuideController($scope, $routeParams, $location, GuideService) {
+function GuideController($scope, $routeParams, $location, $sce, GuideService) {
 
   var mergedGuides = [];
   var id = $routeParams.id;
+
+
+  // Initial Value needed because Angular Marked does not truthy check the path.
+  $scope.path = '';
 
   GuideService.fetchData().then(function(data) {
 
@@ -30,7 +34,7 @@ function GuideController($scope, $routeParams, $location, GuideService) {
     if (angular.isDefined(mergedGuides[id])) {
       var guide = mergedGuides[id];
       $scope.title = guide.title;
-      $scope.path = 'content/guides/' + guide.path;
+      $scope.path = $sce.trustAsResourceUrl('content/guides/' + guide.path);
     } else {
       $scope.title = "Fehler";
       $scope.error = "Die gesuchte Anleitung konnte nicht in unserer Datenbank gefunden werden.";

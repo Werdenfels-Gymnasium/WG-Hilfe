@@ -3,8 +3,7 @@
   "version": "1.0.0-rc2",
   "description": "Werdenfels Gymnasium Hilfe",
   "scripts": {
-    "build": "gulp build",
-    "postinstall": "bower install"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -24,7 +23,13 @@
   },
   "homepage": "https://github.com/Werdenfels-Gymnasium/WG-Hilfe#readme",
   "dependencies": {
-    "bower": "^1.7.9",
+    "angular": "~1.6.9",
+    "angular-animate": "~1.6.9",
+    "angular-aria": "~1.6.9",
+    "angular-marked": "~1.6.9",
+    "angular-material": "^1.1.9",
+    "angular-messages": "~1.6.9",
+    "angular-route": "~1.7.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.1",
