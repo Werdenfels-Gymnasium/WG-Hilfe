@@ -4,7 +4,7 @@ var minifycss = require("gulp-minify-css");
 var sass = require('gulp-sass');
 var uglify = require("gulp-uglify");
 var concat = require("gulp-concat");
-var print = require("gulp-print");
+var print = require("gulp-print").default;
 var license = require("gulp-license");
 var minifyHTML = require("gulp-minify-html");
 
